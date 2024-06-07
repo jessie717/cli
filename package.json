@@ -1,0 +1,28 @@
+{
+  "name": "cowin-cli",
+  "version": "1.0.0",
+  "description": "cli test",
+  "type": "module",
+  "main": "bin/index.js",
+  "bin": {
+    "cowin": "./bin/index.js"
+  },
+  "scripts": {
+    "dev": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jessie",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "degit": "^2.8.4",
+    "download-git-repo": "^3.0.2",
+    "eslint": "^9.4.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.20",
+    "log-symbols": "^6.0.0",
+    "ora": "^8.0.1",
+    "shelljs": "^0.8.5"
+  }
+}
